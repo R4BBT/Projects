@@ -6,12 +6,6 @@ import subprocess
 import time
 from load_twitter_mysql import connect
 
-
-consumer_key = 'il7g9NsjOaMULeMYiIng5kYji'
-consumer_secret = 'EYIzioECGuYkVko9oiKuY1uN5MiLB5AxURkfqVOObPpXvG0S8f'
-access_token = '2561813623-2TfbLj8r3Z4U5it1lHNQLRE1dMVoj6IHrAg1XSt'
-access_token_secret = 'DZ8tJ4KD1y5Lass6WWOpgoJxoJ6Efw2jxe6Pnp84zJYdU'
-
 # Tweepy class to access Twitter API
 class Streamlistener(tweepy.StreamListener):
 
